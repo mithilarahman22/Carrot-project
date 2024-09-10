@@ -1,0 +1,244 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.logo{
+    color: rgb(7, 7, 7);
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium';
+}
+.sarch{
+  margin-left: 100px;
+}
+.src{
+    width: 320px;
+    height: 35px;
+    padding-left: 10px;
+    margin-left:8px;
+    border: 1px rgb(128, 128, 128);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius:6px;
+}
+.btn{
+    width: 100px;
+    height: 35px ;
+    border-top-right-radius:6px;
+    border-bottom-right-radius:6px;
+}
+.btn:focus{
+    outline: none;
+}
+.src:focus{
+    outline: none;
+}
+.list-item a{
+  text-decoration: none ;
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+}
+.header-con{
+    background-color: rgb(110, 249, 249);
+
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item{
+    display: flex;
+}
+.nav-item li{
+    list-style-type: none;
+    padding: 16px;
+}
+
+.navigation-2{
+    display: flex;
+    border-top: 1px solid #797979 ;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation-2 a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    
+}
+.nav-item-2{
+    display: flex;   
+}
+.nav-item-2 li{
+    list-style-type: none;
+    padding: 10px; 
+}
+.list-item-2 a:hover{
+    color: rgb(213, 108, 3);
+
+}    
+.img-icon{
+    width: 10px;
+    height: 10px;
+}
+.header-img{
+    width: 100%;
+    height:400px;
+    background-image: url(Assets/banner\ pizza.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.greetting{
+    color: rgb(2, 155, 7);
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 120px;
+    font-family:arial ;
+  
+    
+}
+.greetting h1{
+    color: #e62a04;
+    padding-bottom:9px;
+}
+.greetting h2{
+    padding-bottom: 7px;
+}
+
+.food-text{
+    text-align: center;
+    padding-top: 5px ;
+}
+.food-text h1{
+    font-size: 35px;
+    color: rgb(248, 139, 31);
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 40px;
+}
+.food-card{
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   padding: 15px 15px;
+   width: 300px;
+   height: 390px;
+   margin:0px 18px 35px 18px ;
+}
+.food-img{
+    height:50vh;
+    width: 50vh;
+}
+.order-btn{
+    background-color: rgb(248, 164, 73);
+    color: rgb(73, 73, 73);
+    border: none;
+    border-radius: 3px;
+    padding:4px;
+    margin-top: 6px;
+    margin-left: 110px;
+
+}
+.order-btn a{
+    text-decoration: none;
+    color: rgb(73, 73, 73); 
+   
+}
+.fair-con{
+    display: grid;
+    padding: 20px 20px 20px 20px;
+    grid-template-columns: repeat(3,1fr);
+    border: 1.7px solid #c7c7c7;
+    border-radius: 5px;
+    margin: 70px 0px 30px 0px;
+}
+.fair-text{
+    text-align: center;
+    padding-top: 100px;
+}
+.fair-text h2{
+    color: rgb(252, 110, 58);
+    font-size: 30px;
+
+}
+
+.fair-img-both{
+    border: 1px  #acacac ;
+}
+
+.div-con-text{
+    text-align: center;
+
+}
+.div-con-text h1{
+    padding: 20px;
+    font-size: 35px;
+}
+
+
+
+.section-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px 20px;
+}
+.div-con-2{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; 
+    margin:15px 20px;
+    margin-top: 40px;
+    border: none
+    
+}    
+.div-box{
+    grid-template-columns: repeat(4,1fr);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    background-color: rgb(177, 180, 180);
+    border-radius: 5px;
+    text-align: center; 
+    padding: 8px 0px 8px 0px;
+    margin:40px 10px ;
+     
+
+}
+
+.div-box a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.section-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 30px;
+    display: grid;
+    margin-bottom: 15px;
+}
+.section-text{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; 
+    background-color: rgb(110, 249, 249);
+    border-radius: 6px;
+    padding: 70px 70px ;
+    text-align: center;
+    margin:15px 15px ;
+    
+    
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+}
+.list-con{
+    background-color: #5f5f5f;
+    color: white;
+    list-style-type: none;
+    padding: 20px;
+}
+.list-item{
+    padding:8px;
+}
+.list-item-h{
+    padding: 8px;
+    font-size: 20px;
+}
